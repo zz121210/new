@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="WOM.css">
+</head>
+<body>
+    <div class="header">
+        <div class="sidebar">
+        </div>
+                    <!--반투명 회색공간 누르면 닫아짐-->
+        <div class="sidebar_space" onclick="
+                document.querySelector('.sidebar').style.display='none';
+                document.querySelector('.sidebar_space').style.display='none';
+                document.querySelector('body').style.overflow='auto';      
+            ">
+        </div>
+            
+        <button onclick="
+            document.querySelector('.sidebar').style.display='block';
+            document.querySelector('.sidebar_space').style.display='block';
+            document.querySelector('body').style.overflow='hidden';
+        "
+        >Side</button>
+
+        <img src="illipal2.png">
+        <input type="search" placeholder="당신의 브랜드를 찾아보세요.">
+        <input type="submit" value="검색">
+        <input type="button" value="언어">
+        <input type="button" value="로그인">
+        <input type="button" value="회원가입">
+        <input type="button" value="♥">  
+    </div>
+
+    
+    
+    <div class="contents_Wrapper">
+        <div class="contents">
+            ㅇ
+        </div>
+    </div>
+    
+</body>
+</html>
